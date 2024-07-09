@@ -1,7 +1,7 @@
 # Tonnetz
 
-This is an interception tools plugin to turn a keyboard into a midi controller
-with the layout based on the Tonnetz.
+This is an [Interception Tools](https://gitlab.com/interception/linux/tools) plugin to turn a keyboard into a midi controller
+with the layout based on the [Tonnetz](https://en.wikipedia.org/wiki/Tonnetz).
 
 If anyone is interested in getting similar functionality on Windows, I believe
 it is possible but you have to use both the RawInput API and the Hooks API,
@@ -29,7 +29,7 @@ path to the keyboard with the path to the keyboard which you want this to apply
 to. It should be somewhere in `/dev/input`
 
 Then if you have [run](https://github.com/akriegman/run) installed somewhere in the root
-users path you can install Tonnetz with:
+user's path you can install Tonnetz with:
 
 ```bash
 sudo run install
