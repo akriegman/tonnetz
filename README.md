@@ -45,3 +45,7 @@ $ sudo bash
 
 Now your keyboard will be treated as a midi controller until you uninstall (same
 as either above method but replace `install` with `uninstall`).
+
+You may also want to change the layout in `tonnetz.cpp` because your keyboard is probably slightly different to mine. You may also want to use a totally different layout that the Tonnetz, in which case you can do that too.
+
+The simplest way to check that it's working is to install and run amsynth (`sudo apt install amsynth; amsynth`) and then connect the ports with `aconnect` (`aconnect -l` to see the ports, then connect them with `aconnect 129:0 128:0` for example). Alternatively you can use Jack or a DAW to connect the port to your synth.
