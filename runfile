@@ -1,0 +1,25 @@
+#!/bin/bash
+
+function all {
+	install
+}
+
+function build {
+	g++ tonnetz.cpp -o tonnetz -lasound
+}
+
+function run {
+	build
+	./tonnetz
+}
+
+function install {
+	build
+	cp 0tonnetz.yaml /etc/interception/udevmon.d
+	systemctl restart udevmon.service
+}
+
+function uninstall {
+	rm /etc/interception/udevmon.d/0tonnetz.yaml
+	systemctl restart udevmon.service
+}
