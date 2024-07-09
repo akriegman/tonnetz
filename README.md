@@ -16,7 +16,7 @@ chords.
 ## Installation
 
 You'll need to have
-[Interception Toolds](https://gitlab.com/interception/linux/tools) installed,
+[Interception Tools](https://gitlab.com/interception/linux/tools) installed,
 and if you have to recompile then you'll need the libasound2 headers:
 
 ```bash
@@ -28,7 +28,7 @@ Now clone this repository. Go into `0tonnetz.yaml` and replace the path to the
 path to the keyboard with the path to the keyboard which you want this to apply
 to. It should be somewhere in `/dev/input`
 
-Then if you have [run](github.com/akriegman/run) installed somewhere in the root
+Then if you have [run](https://github.com/akriegman/run) installed somewhere in the root
 users path you can install Tonnetz with:
 
 ```bash
