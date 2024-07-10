@@ -6,19 +6,19 @@
 
 const std::unordered_map<__u16, unsigned char> tonnetz = {
 
-    {KEY_ESC, 1},         {KEY_F1, 59},        {KEY_F2, 60},
-    {KEY_F3, 61},         {KEY_F4, 62},        {KEY_F5, 63},
-    {KEY_F6, 64},         {KEY_F7, 65},        {KEY_F8, 66},
-    {KEY_F9, 67},         {KEY_F10, 68},       {KEY_F11, 68},
-    {KEY_F12, 68},        {KEY_SYSRQ, 60},     {KEY_SCROLLLOCK, 70},
-    {KEY_PAUSE, 119},
+    {KEY_ESC, 109},       {KEY_F1, 104},       {KEY_F2, 99},
+    {KEY_F3, 94},         {KEY_F4, 89},        {KEY_F5, 84},
+    {KEY_F6, 79},         {KEY_F7, 74},        {KEY_F8, 69},
+    {KEY_F9, 64},         {KEY_F10, 59},       {KEY_F11, 54},
+    {KEY_F12, 49},        {KEY_SYSRQ, 44},     {KEY_SCROLLLOCK, 39},
+    {KEY_PAUSE, 34},
 
-    {KEY_GRAVE, 41},      {KEY_1, 2},          {KEY_2, 3},
-    {KEY_3, 4},           {KEY_4, 5},          {KEY_5, 6},
-    {KEY_6, 7},           {KEY_7, 8},          {KEY_8, 9},
-    {KEY_9, 10},          {KEY_0, 11},         {KEY_MINUS, 12},
-    {KEY_EQUAL, 13},      {KEY_BACKSPACE, 14}, {KEY_INSERT, 110},
-    {KEY_HOME, 102},      {KEY_PAGEUP, 104},
+    {KEY_GRAVE, 110},     {KEY_1, 105},        {KEY_2, 100},
+    {KEY_3, 95},          {KEY_4, 90},         {KEY_5, 85},
+    {KEY_6, 80},          {KEY_7, 75},         {KEY_8, 70},
+    {KEY_9, 65},          {KEY_0, 60},         {KEY_MINUS, 55},
+    {KEY_EQUAL, 50},      {KEY_BACKSPACE, 45}, {KEY_INSERT, 40},
+    {KEY_HOME, 35},       {KEY_PAGEUP, 30},
 
     {KEY_TAB, 101},       {KEY_Q, 96},         {KEY_W, 91},
     {KEY_E, 86},          {KEY_R, 81},         {KEY_T, 76},
@@ -33,16 +33,16 @@ const std::unordered_map<__u16, unsigned char> tonnetz = {
     {KEY_L, 47},          {KEY_SEMICOLON, 42}, {KEY_APOSTROPHE, 37},
     {KEY_ENTER, 32},
 
-    {KEY_LEFTSHIFT, 42},  {KEY_Z, 44},         {KEY_X, 45},
-    {KEY_C, 46},          {KEY_V, 47},         {KEY_B, 48},
-    {KEY_N, 49},          {KEY_M, 50},         {KEY_COMMA, 51},
-    {KEY_DOT, 52},        {KEY_SLASH, 53},     {KEY_RIGHTSHIFT, 54},
-    {KEY_UP, 103},
+    {KEY_LEFTSHIFT, 83},  {KEY_Z, 78},         {KEY_X, 73},
+    {KEY_C, 68},          {KEY_V, 63},         {KEY_B, 58},
+    {KEY_N, 53},          {KEY_M, 48},         {KEY_COMMA, 43},
+    {KEY_DOT, 38},        {KEY_SLASH, 33},     {KEY_RIGHTSHIFT, 28},
+    {KEY_UP, 23},
 
-    {KEY_LEFTCTRL, 29},   {KEY_LEFTMETA, 125}, {KEY_LEFTALT, 56},
-    {KEY_SPACE, 57},      {KEY_RIGHTALT, 68},  {KEY_COMPOSE, 60},
-    {KEY_RIGHTCTRL, 68},  {KEY_LEFT, 105},     {KEY_DOWN, 108},
-    {KEY_RIGHT, 106},
+    {KEY_LEFTCTRL, 79},   {KEY_LEFTMETA, 74},  {KEY_LEFTALT, 69},
+    {KEY_SPACE, 0},       {KEY_RIGHTALT, 34},  {KEY_COMPOSE, 29},
+    {KEY_RIGHTCTRL, 24},  {KEY_LEFT, 19},      {KEY_DOWN, 14},
+    {KEY_RIGHT, 9},
 };
 
 int main() {
