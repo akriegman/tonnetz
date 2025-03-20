@@ -64,11 +64,13 @@ int main() {
   int status;
   snd_rawmidi_t *midi_out = nullptr;
 
+  cerr << "starting" << endl;
   status = snd_rawmidi_open(nullptr, &midi_out, "virtual", SND_RAWMIDI_SYNC);
   if (status < 0) {
     cerr << "Error opening MIDI output: " << snd_strerror(status) << endl;
     return 1;
   }
+  cerr << "opened port" << endl;
 
   input_event event;
   while (fread(&event, sizeof(event), 1, stdin) == 1) {
